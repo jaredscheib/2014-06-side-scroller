@@ -1,0 +1,39 @@
+body {
+	padding: 100px 0 100px 0;
+}
+
+div #player {
+	width: 50px;
+	height: 250px;
+	background-color: red;
+	position: absolute;
+	border: 1px dotted black;
+	float: right;
+	display: inline-block;
+}
+
+div .taxi {
+	width: 50px;
+	height: 250px;
+	background-color: yellow;
+	border: 1px solid black;
+	position: absolute;
+	float: right;
+	display: inline-block;
+}
+
+div .cop {
+	width: 50px;
+	height: 250px;
+	background-color: blue;
+	display: inline-block;
+}
+
+div #ground {
+	width: 1250px;
+	height: 20px;
+	margin-top: 250px;
+	background-color: black;
+	position: fixed;
+	display: block;
+}
